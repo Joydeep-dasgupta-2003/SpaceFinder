@@ -1,0 +1,27 @@
+/* NavBar */
+nav img{
+    width: 100px;
+}
+.nav{
+    --bs-nav-link-padding-x: 24px;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #ffa500;
+}
+.nav-link{
+    color: black ;
+}
+@media (max-width: 520px) {
+  .nav-item{
+      justify-items: center;
+  }
+  .d-flex{
+    justify-content: center;
+  }
+  .carousel-caption p{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+}
+/* NavBar */
